@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Meta etiquetas requeridas -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS de Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+<title>PEAKFORM</title>
+</head>
+<body>
+<header>
+    <h1 id="Hipertrofia" class="text-center mb-4 font-monospace fw-bolder">PeakForm</h1></header>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#Hipertrofia">Hipertrofia</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#MejoresEjercicios">Mejores Ejercicios</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Descanso">Descanso</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Formulario">Formulario</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Contacto" target="_blank">Contacto</a>
+</ul>
+
+
+<main>
+    <section id="Hipertrofia" class="card" style="width: 18rem;">
+  <img src="./Hipertrofia.jpg" class="card-img-top" alt="Imagen Hipertrofia">
+  <div class="card-body">
+    <h4 class="card-title">Hipertrofia</h4>
+    <p class="card-text">a hipertrofia es el aumento del tamaño de las células musculares como resultado del entrenamiento de resistencia. Por lo general, se logra mediante la combinación de ejercicios de fuerza y una nutrición adecuada, lo que genera un crecimiento muscular significativo.</p>
+</div>
+</section>
+<br>
+    <section id="MejoresEjercicios" class="card" style="width: 18rem;">
+  <img src="./Mejores_Ejercicios.jpg" class="card-img-top" alt="Imagen Mejores Ejercicios">
+  <div class="card-body">
+    <h4 class="card-title">Mejores Ejercicios</h4>
+    <p class="card-text">Los mejores ejercicios para desarrollar la hipertrofia son aquellos que permiten cargar pesos pesados y realizar movimientos compuestos que involucren múltiples grupos musculares.
+        Cómo por ejemplo: sentadillas, press de banca, peso muerto, dominadas y fondos. Estos ejercicios estimulan el crecimiento muscular de manera más efectiva que los ejercicios de aislamiento.
+    </p>
+</div>
+</section>
+<br>
+    <section id="Descanso" class="card" style="width: 18rem;">
+  <img src="./Descanso.jpg" class="card-img-top" alt="Imagen Descanso">
+  <div class="card-body">
+    <h4 class="card-title">Descanso</h4>
+    <p class="card-text">El descanso es fundamental para la recuperación muscular y el crecimiento. Un adecuado descanso permite que los músculos se reparen y fortalezcan después del entrenamiento.</p>
+</div>
+</section>
+<br>
+</main>
+<!-- Formulario de contacto -->
+<section id="Formulario" class="card" style="max-width: 720px">
+  <h3 class="font-monospace" .fw-semibold>Formulario de contacto</h3>
+      <div class="mb-3">
+        <label for="fieldSelect" class="form-label" class="font-monospace">Plan</label>
+        <select class="form-select" id="fieldSelect">
+          <option selected class="font-monospace" .fw-semibold>Seleccione un plan</option>
+          <option value="1" class="font-monospace">Plan Nutricional</option>
+          <option value="2" class="font-monospace">Plan de Entrenamiento</option>
+          <option value="3" class="font-monospace">Plan de Recuperación</option>
+        </select>
+      </div>
+      <fieldset class="mb-3">
+        <legend class="form-label" class="font-monospace" .fw-semibold>Objetivo Físico</legend>
+        <div class="form-check">
+          <input type="radio" id="fieldGroupRadio1" class="form-check-input" name="fieldGroupRadio" required>
+          <label for="fieldGroupRadio1" class="form-check-label" class="font-monospace">Masa Muscular</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" id="fieldGroupRadio2" class="form-check-input" name="fieldGroupRadio" required>
+          <label for="fieldGroupRadio2" class="form-check-label" class="font-monospace">Definición</label>
+        </div>
+        <div class="form-text" class="font-monospace" .fw-semibold>Seleccione su objetivo físico.</div>
+      </fieldset>
+      <div class="mb-3">
+        <label for="fieldTextarea" class="form-label" class="font-monospace">Pon tus datos</label>
+        <textarea class="form-control" id="fieldTextarea" rows="3"></textarea>
+        <div class="form-text" class="font-monospace" .fw-light>Asegúrate de incluir información relevante para que podamos personalizar tu plan.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="fieldServerEmail" class="form-label" class="font-monospace">Correo electrónico</label>
+        <input type="email" class="form-control" id="fieldServerEmail">
+      </div>
+
+      <div class="mb-3">
+        <label for="fieldServerName" class="form-label" class="font-monospace">Nombre completo</label>
+        <input type="text" class="form-control" id="fieldServerName">
+        <div class="valid-feedback" class="font-monospace" .fw-light>¡Se ve bien!</div>
+      </div>
+
+      <div class="form-check mb-3">
+        <input type="checkbox" id="fieldServerCheck" class="form-check-input" required>
+        <label for="fieldServerCheck" class="form-check-label" class="font-monospace">Acepto los términos y condiciones</label>
+        <div class="invalid-feedback" class="font-monospace" .fw-light>Debe aceptar los términos antes de enviar.</div>
+        <button type="button" class="btn-outline theme-secondary">Enviar</button>
+      </div>
+    </form>
+    </section>
+    <br>
+<div class="card">
+  <div class="card-body">
+    Conctáctanos para obtener más información sobre nuestros planes de entrenamiento y nutrición. Estamos aquí para ayudarte a alcanzar tus objetivos físicos de manera efectiva y segura. <br>
+    Al sigyuente correo electrónico: example@mail.com <br>
+    O al siguiente número de teléfono: +57 9999999999
+  </div>
+</div>
+</body>
+<footer>
+  <div class="card">
+    <div class="card-body">
+      &copy; 2026 PeakForm. Todos los derechos reservados.
+    </div>
+  </div>
+</html>
